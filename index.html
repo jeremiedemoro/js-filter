@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <title>JS Filter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <h1>List Filter</h1>
+        <h2>This filter, filters according to any letter.</h2>
+        <input type="text" id="name-input" onkeyup="filterNames()" placeholder="Search for names" title="Search for names">
+        <ul id="names-list">
+            <li><a href="#">Avraham</a></li>
+            <li><a href="#">Itshak</a></li>
+            <li><a href="#">Yaakov</a></li>
+            <li><a href="#">Moshe</a></li>
+            <li><a href="#">Aharon</a></li>
+            <li><a href="#">David</a></li>
+            <li><a href="#">Shlomo</a></li>
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
